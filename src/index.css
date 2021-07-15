@@ -1,0 +1,54 @@
+h1 {
+  border: 2px solid black;
+  margin: 25px;
+  padding: 25px;
+
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+/* Tab Button */
+.tab-button {
+  display: flex;
+}
+
+/* Login and Register Tabs */
+.login-tab,
+.register-tab {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+.account-info {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.login-button,
+.register-button {
+  background-color: #fb8500; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 25px;
+  margin: 0px;
+}

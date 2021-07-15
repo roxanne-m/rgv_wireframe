@@ -17,14 +17,46 @@
     />
   </head>
   <body>
-    <header>RGV Project</header>
+    <header><h1>RGV Project</h1></header>
     <main>
       <section>
-        <div class="group">
-          <div class="item"></div>
+        <h2>Welcome!</h2>
+        <!-- Tab Buttons -->
+        <div id='tab-button'>
+          <a href="#login" class='login-tab active'>Sign In</a>
+          <a href="#register" class="register-tab">Sign Up</a>
+        </div>
+        <!-- Login Form -->
+        <div class="login-box">
+          <form class="account-info" action='#login' method='post' id='login-form'>
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" required><br><br>
+         
+          <label for="password">Password:</label><br>
+          <input type="text" id="password" name="password" required><br><br>
+          <button class="login-button" type='submit'>Login</button>
+          
+        </form>
+        </div>
+        <!-- Registration Box -->
+        <div class="register-box">
+          <form class="account-info" action='#register' method='post' id='reg-form'>
+            <label for="username">Enter Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="email">Enter Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="password">Enter Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="password">Confirm Password:</label><br>
+            <input type="repass" id="repass" name="repass" required><br><br>
+           
+            <button class="register-button">Register</button>
+          </form>
+        </div>
+        
         </div>
       </section>
     </main>
-    <footer>RGV Project, Roxanne Cantu ©</footer>
+    <footer><p>RGV Project, Roxanne Cantu ©</p></footer>
   </body>
 </html>
