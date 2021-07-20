@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGV Wireframe</title>
+
+    <!-- to connect the css & html files -->
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+    <!-- Used to guarantee cross-browser consistency for default styles -->
+    <link
+      href="https://cdnjs.cloudfare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>RGV Project</h1>
+      <nav>
+        <ul>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Welcome!</h2>
+      <section>
+        <div class="tabs">
+          <h3 id="login">Login</h3>
+          <form>
+            <label for="email">Email: </label><br />
+            <input
+              type="email"
+              placeholder="e.g, johnDoe@email.com"
+              id="email"
+              name="email"
+              required
+            /><br /><br />
+            <label for="password">Password: </label><br />
+            <input
+              type="password"
+              placeholder="Enter Password"
+              id="password"
+              name="password"
+              required
+            /><br /><br />
+            <button type="button" class="login-button">Login</button>
+          </form>
+        </div>
+
+        <div class="tabs">
+          <h3 id="register">Register</h3>
+          <form>
+            <label for="email">Email: </label><br />
+            <input
+              type="email"
+              placeholder="e.g, johnDoe@email.com"
+              id="email"
+              name="email"
+              required
+            /><br /><br />
+            <label for="pw">Password: </label><br />
+            <input
+              type="password"
+              placeholder="Enter Password"
+              id="pw"
+              name="pw"
+              required
+            /><br /><br />
+            <label for="repw">Re-Enter Password: </label><br />
+            <input
+              type="password"
+              placeholder="Re-enter Password"
+              id="repw"
+              name="repw"
+              required
+            />
+            <br /><br />
+            <button type="button" class="register-button">Register</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><p>RGV Project, Roxanne Cantu ©</p></footer>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 h1 {
   border: 2px solid black;
+  border-radius: 25px;
   margin: 25px;
   padding: 25px;
 
@@ -9,41 +10,47 @@ h2 {
   text-align: center;
 }
 
-/* Tab Button */
-.tab-button {
+nav {
   display: flex;
-}
-
-/* Login and Register Tabs */
-.login-tab,
-.register-tab {
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  background-color: lightgrey;
-  text-align: center;
-  font-size: 25px;
-  padding: 10px;
-}
-.account-info {
+  flex-direction: row;
+  justify-content: center;
   border: 2px solid black;
-  border-radius: 15px;
-  padding: 25px;
+  border-radius: 25px;
   margin: 25px;
-  text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
+section {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 25px;
+}
+
+.tabs {
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: #ebebeb;
+  text-align: center;
+  margin: 25px;
+  padding: 25px;
+}
+
+/* Login and Register Buttons */
 .login-button,
 .register-button {
-  background-color: #fb8500; /* Green */
+  background-color: #ff751f;
+  color: white;
   border: none;
   border-radius: 10px;
-  color: white;
-  padding: 15px 32px;
+  padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 footer {
